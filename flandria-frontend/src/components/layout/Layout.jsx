@@ -32,9 +32,9 @@ const Layout = ({ children }) => {
       <Nav />
       <Main>
         {children}
-        {(!cookies.donate_banner) && (
+        {/* {(!cookies.donate_banner) && (
           <DonateBanner />
-        )}
+        )} */}
       </Main>
       <Footer />
     </>
