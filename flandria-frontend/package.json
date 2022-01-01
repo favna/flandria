@@ -35,7 +35,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build && python ../after_build.py",
+    "build": "craco build && py ../after_build.py",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
