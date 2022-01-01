@@ -42,18 +42,11 @@ const Footer = () => (
         <div className="flex flex-col">
           <h5 className="mb-1 text-sm font-bold tracking-wide text-center text-gray-700 uppercase dark:text-white md:text-left">Flandria</h5>
           <FooterLink to="/about">About Us</FooterLink>
-          <FooterLink to="https://www.github.com/HealYouDown/flandria" external>Github</FooterLink>
-        </div>
-
-        <div className="flex flex-col">
-          <h5 className="mb-1 text-sm font-bold tracking-wide text-center text-gray-700 uppercase dark:text-white md:text-left">Support us</h5>
-          <FooterLink to="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DWR39ZZHBKXAQ&source=url" external>Paypal</FooterLink>
-          <FooterLink to="https://www.patreon.com/flandria" external>Patreon</FooterLink>
+          <FooterLink to="https://www.github.com/lauderandtaiga/flandria" external>Github</FooterLink>
         </div>
 
         <div className="flex flex-col">
           <h5 className="mb-1 text-sm font-bold tracking-wide text-center text-gray-700 uppercase dark:text-white md:text-left">Discord</h5>
-          <FooterLink to="https://discord.gg/zDax9Rg" external>Flandria</FooterLink>
           <FooterLink to="https://discord.gg/giikugames" external>Florensia</FooterLink>
         </div>
 
