@@ -65,32 +65,10 @@ const About = () => {
         If you have no coding experience but want to help out, you can
         do this by joining our
         {' '}
-        <a href="https://discord.gg/zDax9Rg">Discord</a>
+        <a href="https://discord.gg/GiikuGames">Discord</a>
         {' '}
         and help us collect all the (still)
         missing drops.
-      </p>
-
-      <h2>About me</h2>
-      <blockquote>
-        Text from late 2020, may not be up to date whenver you read this. 🤷‍♂️
-      </blockquote>
-      <p>
-        Hi! My name is Jeremy, I am 20 years old and live in Germany. Currently,
-        I am working as a Software Developer.
-        <br />
-        I started Flandria as a project to learn and never thought it would reach the state
-        it is in today, but that gives me even more possibilities to learn from.
-        <br />
-        I play Florensia for about 8 years now, but probably not that active as I used to.
-        You can find me on Bergruen as
-        {' '}
-        <b>Shadow</b>
-        .
-        <br />
-        If you have any questions about this project, feel free to add me on Discord:
-        <b> Jeremy#8813</b>
-        .
       </p>
     </Prose>
   );

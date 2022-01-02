@@ -15,11 +15,11 @@ const LegalNotice = () => {
       <p>
         E-Mail:
         {' '}
-        <a href="mailto:contact@flandria.info">contact@flandria.info</a>
+        <a href="mailto:contact@flandria.info">info (at) giikugames.com</a>
         <br />
         Internet address:
         {' '}
-        <a href="www.flandria.info" target="_blank">www.flandria.info</a>
+        <a href="www.florensia-online.com/en" target="_blank">www.florensia-online.com/en</a>
       </p>
 
       <h2>Graphics and Image Sources</h2>
