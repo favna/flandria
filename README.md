@@ -12,22 +12,6 @@ Please also honor the License applied to the project.
 
 Thanks for all the support over the years.
 
-## Contribute to project ##
-
-### Setup development environment ###
-Clone repository:
-```commandline
-git clone https://github.com/lauderandtaiga/flandria.git
-cd flandria
-```
-
-(Optional) Create new branch:
-```commandline
-git checkout -b my_new_branch
-git status
-```
-
-#### Install requirements ####
 Install all requirements.
 ```commandline
 pip install -r requirements.txt
