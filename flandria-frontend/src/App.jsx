@@ -42,7 +42,7 @@ const App = () => (
     <ErrorBoundary
       FallbackComponent={ErrorBoundaryView}
     >
-      <GATracker trackingId="UA-131501670-1">
+      <GATracker trackingId="UA-216355284-1">
         <CookiesProvider>
           <Layout>
             <Switch>
