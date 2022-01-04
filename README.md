@@ -27,40 +27,24 @@ git checkout -b my_new_branch
 git status
 ```
 
-(Optional) Install [PyCharm](https://www.jetbrains.com/pycharm/)
-
 #### Install requirements ####
-**PyCharm**</br>
-Open base project-folder _flandria_ in IDE to be automatically asked to create a new virtual environment from the
-_requirements.txt_. Restarting the IDE might be required.</br>
-If not asked automatically: create new virtual environment from the IDE-dialog. Afterwards open _requirements.txt_,
-you will then be asked if you want to install all packages to your current interpreter environment.
-</br>**Console**</br>
+Install all requirements.
 ```commandline
-python3 -m venv my_env
-source my_env/bin/activate
 pip install -r requirements.txt
-```
-Leaving virtual environment:
-```commandline
-deactivate
 ```
 
 ## Run flask-server ####
-**PyCharm**</br>
-[Create run-configuration for flask](https://www.jetbrains.com/help/pycharm/run-debug-configuration-flask-server.html)
 ```commandline
 FLASK_ENV=development FLASK_APP=app.py flask run --host=0.0.0.0 --port 5000
 ```
 
-### Initialize database
-Run the following commands with virtual environment **activated**.
+## Initialize database
+Run the following commands with virtual environment.
 ```commandline
-export FLASK_APP=app.py
-flask db upgrade head
+flask db upgrade
 ```
 
-### Fill database
+## Populate database with data
 Download data from Florensia:
 ```commandline
 flask updater download
@@ -74,7 +58,7 @@ Update icons:
 flask updater icons
 ```
 
-### Update player ranking
+## Update player ranking
 ```commandline
 flask tasks update-ranking
 ```
