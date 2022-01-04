@@ -46,20 +46,21 @@ Leaving virtual environment:
 deactivate
 ```
 
-#### Run flask-server ####
+## Run flask-server ####
 **PyCharm**</br>
 [Create run-configuration for flask](https://www.jetbrains.com/help/pycharm/run-debug-configuration-flask-server.html)
-</br>**Console**</br>
-`FLASK_ENV=development FLASK_APP=app.py flask run --host=0.0.0.0 --port 5000`
+```commandline
+FLASK_ENV=development FLASK_APP=app.py flask run --host=0.0.0.0 --port 5000
+```
 
-#### Initialize database ####
+### Initialize database
 Run the following commands with virtual environment **activated**.
 ```commandline
 export FLASK_APP=app.py
 flask db upgrade head
 ```
 
-##### Fill database #####
+### Fill database
 Download data from Florensia:
 ```commandline
 flask updater download
@@ -71,4 +72,9 @@ flask updater database
 Update icons:
 ```commandline
 flask updater icons
+```
+
+### Update player ranking
+```commandline
+flask tasks update-ranking
 ```
