@@ -17,15 +17,16 @@ const About = () => {
         <br />
         Even today, it is still in development and maintained on a regular basis to reflect
         the newest patches.
-      </p>
-
-      <h2>Is Flandria associated with GiikuGames?</h2>
-      <p>
-        Flandria is not a product by GiikuGames and they, as the Publisher of Florensia,
-        have no say over what is supposed to go on this website.
         <br />
-        However, from time to time they support the project by advertisments or by placing
-        a link on their website.
+        The development of the original project by
+        {' '}
+        <a href="https://github.com/HealYouDown/flandria">Jeremy</a>
+        was stopped on 01.01.2022.
+        This website is is a fork of the original project, which is now hosted by
+        {' '}
+        <a href="https://www.giikugames.com">Giiku Games</a>
+        and presents a continued effort by the community to
+        keep development going.
       </p>
 
       <h2>How does Flandria work?</h2>
