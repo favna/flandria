@@ -10,6 +10,9 @@ jobs:
   PublishFlandria:
     name: Publish Flandria image to container registries
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
     steps:
       - name: Checkout Project
         uses: actions/checkout@v3
