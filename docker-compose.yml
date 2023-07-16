@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  web: 
+    build: .
+    stop_signal: SIGINT
+    container_name: flandria
+    image: flandria:latest
+    ports:
+      - '8000:8000'

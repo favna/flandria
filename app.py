@@ -10,4 +10,4 @@ if __name__ == "__main__":
 
     # Create and run app
     app = create_app(debug=os.getenv("DEBUG", False))
-    app.run()
+    app.run(host='0.0.0.0', port=8000)
