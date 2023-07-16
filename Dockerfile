@@ -25,7 +25,7 @@ RUN apk --no-cache add \
     tk-dev \
     zlib-dev
 
-ADD docker-scripts/ /docker-scripts
+COPY docker-scripts/ /docker-scripts
 RUN cd /docker-scripts \
     && chmod +x ./* \
     && ./install_webp.sh \
@@ -38,7 +38,12 @@ COPY requirements.txt /app
 RUN --mount=type=cache,target=/root/.cache/pip \
     pip3 install -r requirements.txt
 
-COPY . /app
+COPY database_updater/ /app/database_updater/
+COPY flandria-frontend/ /app/flandria-frontend/
+COPY migrations/ /app/migrations/
+COPY webapp/ /app/webapp/
+COPY after_build.py /app/after_build.py
+COPY app.py /app/app.py
 
 ENTRYPOINT ["python3"]
 CMD ["app.py"]
