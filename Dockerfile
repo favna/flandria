@@ -27,6 +27,7 @@ RUN apk --no-cache add \
 
 ADD docker-scripts/ /docker-scripts
 RUN cd /docker-scripts \
+    && chmod +x ./* \
     && ./install_webp.sh \
     && ./install_raqm.sh
 
